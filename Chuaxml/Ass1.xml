@@ -1,0 +1,45 @@
+<?xml version="1.0.0" encoding="UTF-8" ?>
+<newspaper>
+    <paper1>
+        <title>
+            <title1>Thêm một ca nhiễm Covid-19, nâng tổng số ca mắc tại Việt Nam lên 76
+            </title1>
+            <title2>DỊCH COVID-19
+            </title2>
+            <title3>Cach phong tranh</title3>
+        </title>
+        <img>abc.jpg</img>
+        <decs>Ca nhiễm Covid-19 thứ 76 tại Việt Nam là một người đàn ông quốc tịch Pháp.</decs>
+
+    </paper1>
+    <paper2>
+        <title>
+            <title1>Bong da
+            </title1>
+            <title2>the thao
+            </title2>
+            <title3>Ngoai hang anh</title3>
+
+        </title>
+        <img>abc.jpg</img>
+        <decs>EURO hoãn đến 2021: Ông lớn thở phào, MU - Real thả ga đua "bom tấn".</decs>
+        <bao>Nhờ hoãn EURO 2020, các đội bóng lớn có nhiều thời gian mua bán cầu thủ</bao>
+
+
+    </paper2>
+    <paper2>
+        <title>
+            <title1>kinh doanh
+            </title1>
+            <title2>the thao
+            </title2>
+            <title3>Ngoai hang anh</title3>
+
+        </title>
+        <img>abc.jpg</img>
+        <decs>EURO hoãn đến 2021: Ông lớn thở phào, MU - Real thả ga đua "bom tấn".</decs>
+        <bao>Nhờ hoãn EURO 2020, các đội bóng lớn có nhiều thời gian mua bán cầu thủ</bao>
+
+
+    </paper2>
+</newspaper>

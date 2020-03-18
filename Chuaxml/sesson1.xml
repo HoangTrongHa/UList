@@ -1,0 +1,39 @@
+<?xml version="1.0.0" encoding="UTF-8" ?>
+<Student>   <!--root element-->
+    <Document><name>Hoang Trong Ha</name>
+        <age>18</age>
+        <address>Ha noi</address>
+        <telephone>0838584663</telephone>
+    </Document>
+    <Document1>
+        <Img>anhtongthonghoangtrongha.jpg</Img>
+        <title>Tân Sơn Nhất trước giờ dừng cấp thị thực cho người nước ngoài
+        </title>
+        <url>https://vnexpress.net/thoi-su/tan-son-nhat-truoc-gio-dung-cap-thi-thuc-cho-nguoi-nuoc-ngoai-4070874.html</url>
+        <p>TP HCMHàng trăm hành khách nước ngoài nhập cảnh làm thủ tục khai báo y tế tại Tân Sơn Nhất trước giờ tạm dừng cấp thị thực.</p>
+    </Document1>
+
+    <Document>
+        <Img>anhtongthonghoangtrongha.jpg</Img>
+        <title>Tân Sơn Nhất trước giờ dừng cấp thị thực cho người nước ngoài
+        </title>
+        <url>https://vnexpress.net/thoi-su/tan-son-nhat-truoc-gio-dung-cap-thi-thuc-cho-nguoi-nuoc-ngoai-4070874.html</url>
+        <p>TP HCMHàng trăm hành khách nước ngoài nhập cảnh làm thủ tục khai báo y tế tại Tân Sơn Nhất trước giờ tạm dừng cấp thị thực.</p>
+    </Document>
+
+    <Document>
+        <Img>anhtongthonghoangtrongha.jpg</Img>
+        <title>Tân Sơn Nhất trước giờ dừng cấp thị thực cho người nước ngoài
+        </title>
+        <url>https://vnexpress.net/thoi-su/tan-son-nhat-truoc-gio-dung-cap-thi-thuc-cho-nguoi-nuoc-ngoai-4070874.html</url>
+        <p>TP HCMHàng trăm hành khách nước ngoài nhập cảnh làm thủ tục khai báo y tế tại Tân Sơn Nhất trước giờ tạm dừng cấp thị thực.</p>
+    </Document>
+
+    <Document>
+        <Img>anhtongthonghoangtrongha.jpg</Img>
+        <title>Tân Sơn Nhất trước giờ dừng cấp thị thực cho người nước ngoài
+        </title>
+        <url>https://vnexpress.net/thoi-su/tan-son-nhat-truoc-gio-dung-cap-thi-thuc-cho-nguoi-nuoc-ngoai-4070874.html</url>
+        <p>TP HCMHàng trăm hành khách nước ngoài nhập cảnh làm thủ tục khai báo y tế tại Tân Sơn Nhất trước giờ tạm dừng cấp thị thực.</p>
+    </Document>
+</Student>

@@ -1,0 +1,14 @@
+<?xml version="1.0.0" encoding="UTF-8" ?>
+<newspaper>
+    <onday>
+        <title>Cong bo ca thu 67</title>
+        <img>abc.jpg</img>
+        <p>Bộ Y tế vừa công bố ca nhiễm Covid-19 số 67, là người đi cùng chuyến bay với ca bệnh số 61.</p>
+    </onday>
+    <Ncovid>
+        <title>Dien bien dich Covid 19 </title>
+    </Ncovid>
+    <solutionNews>
+
+    </solutionNews>
+</newspaper>

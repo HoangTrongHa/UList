@@ -23,26 +23,6 @@
 
 </head>
 <body>
-<header class="phan1">
-    <div class="container">
-        <div class="hay">
-            <ul>
-                <li>
-                    <a href="#" class="fa fa-facebook"></a>
-                </li>
-                <li>
-                    <a href="#" class="fa fa-twitter"></a>
-                </li>
-                <li>
-                    <a href="#" class="fa fa-youtube"></a>
-                </li>
-                <li>
-                    <a href="#" class="fa fa-instagram"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</header>
 <section class="phan2">
     <h1>DREAM MAKER</h1>
     <p> Lá cây xanh – Lòng thương lấp lánh</p>
@@ -87,78 +67,175 @@
 <section style="background-color:yellowgreen ">
     <div class="container">
         <div class="row " style="background-color: yellowgreen">
-            <h2>Product List</h2>
-            <ul class="tab">
-
-                <li class="tab-item active" onclick="changeProductList('new',this)">New Product</li>
-                <li class="tab-item" onclick="changeProductList('pop',this)">Popular Products
-                </li>
-                <li class="tab-item" onclick="changeProductList('best',this)">Best Seller
+            <h2 style="text-align: center">Product List</h2>
+            <ul class="tabs">
+                <li class="active" rel="tab1">New Products</li>
+                <li rel="tab2">Popular Products</li>
+                <li rel="tab3">Hot Products</li>
+                <li rel="tab4">Discounted Products
                 </li>
             </ul>
-            <div id="new" class="animation">
-                <ul class="product-list">
-                    <li><img src="../Img/Butchi.jpeg"/></li>
-                    <li><img src="../Img/Cay.jpg"/></li>
-                    <li><img src="../Img/Hopbut.jpeg"/></li>
-                    <li><img src="../Img/sach.jpeg"/></li>
-                    <li><img src="../Img/sach2.jpeg"/></li>
-                    <li><img src="../Img/Sao.jpg"/></li>
-                </ul>
-            </div>
+            <div class="tab_container">
+                <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>
+                <div id="tab1" class="tab_content">
 
-            <div id="Popu" class="animation">
-                <ul class="product-list">
-                    <li><img src="../Img/Hopbut.jpeg"/></li>
-                    <li><img src="../Img/sach2.jpeg"/></li>
-                    <li><img src="../Img/Butchi.jpeg"/></li>
-                    <li><img src="../Img/Cay.jpg"/></li>
-                    <li><img src="../Img/Sao.jpg"/></li>
-                    <li><img src="../Img/sach.jpeg"/></li>
-                    <li><img src="../Img/Butchi.jpeg"/></li>
-                </ul>
+                    <ul class="product-list">
+                        <li><img src="../Img/Butchi.jpeg"/></li>
+                        <li><img src="../Img/Cay.jpg"/></li>
+                        <li><img src="../Img/Hopbut.jpeg"/></li>
+                        <li><img src="../Img/sach.jpeg"/></li>
+                        <li><img src="../Img/sach2.jpeg"/></li>
+                        <li><img src="../Img/Sao.jpg"/></li>
+                    </ul>
+                </div>
+                <!-- #tab1 -->
+                <h3 class="tab_drawer_heading" rel="tab2">Tab 2</h3>
+                <div id="tab2" class="tab_content">
+                    <ul class="product-list">
+                        <li><img src="../Img/Butchi.jpeg"/></li>
+                        <li><img src="../Img/Cay.jpg"/></li>
+                        <li><img src="../Img/Hopbut.jpeg"/></li>
+                        <li><img src="../Img/sach.jpeg"/></li>
+                        <li><img src="../Img/sach2.jpeg"/></li>
+                        <li><img src="../Img/Sao.jpg"/></li>
+                    </ul>
+                </div>
+                <!-- #tab2 -->
+                <h3 class="tab_drawer_heading" rel="tab3">Tab 3</h3>
+                <div id="tab3" class="tab_content">
+                    <ul class="product-list">
+                        <li><img src="../Img/Butchi.jpeg"/></li>
+                        <li><img src="../Img/Cay.jpg"/></li>
+                        <li><img src="../Img/Hopbut.jpeg"/></li>
+                        <li><img src="../Img/sach.jpeg"/></li>
+                        <li><img src="../Img/sach2.jpeg"/></li>
+                        <li><img src="../Img/Sao.jpg"/></li>
+                    </ul>
+                </div>
+                <!-- #tab3 -->
+                <h3 class="tab_drawer_heading" rel="tab4">Tab 4</h3>
+                <div id="tab4" class="tab_content">
+                    <ul class="product-list">
+                        <li><img src="../Img/Butchi.jpeg"/></li>
+                        <li><img src="../Img/Cay.jpg"/></li>
+                        <li><img src="../Img/Hopbut.jpeg"/></li>
+                        <li><img src="../Img/sach.jpeg"/></li>
+                        <li><img src="../Img/sach2.jpeg"/></li>
+                        <li><img src="../Img/Sao.jpg"/></li>
+                    </ul>
+                </div>
+                <!-- #tab4 -->
             </div>
-
-            <div id="best" class="animation">
-                <ul class="product-list">
-                    <li><img src="../Img/Sao.jpg"/></li>
-                    <li><img src="../Img/sach.jpeg"/></li>
-                    <li><img src="../Img/Cay.jpg"/></li>
-                    <li><img src="../Img/Hopbut.jpeg"/></li>
-                    <li><img src="../Img/sach2.jpeg"/></li>
-                    <li><img src="../Img/Butchi.jpeg"/></li>
-
-                </ul>
-            </div>
+            <!-- .tab_container -->
         </div>
+        <!--            <ul class="tab">-->
+
+        <!--                <li class="tab-item active" onclick="changeProductList('new',this)">New Product</li>-->
+        <!--                <li class="tab-item" onclick="changeProductList('pop',this)">Popular Products-->
+        <!--                </li>-->
+        <!--                <li class="tab-item" onclick="changeProductList('best',this)">Best Seller-->
+        <!--                </li>-->
+        <!--            </ul>-->
+        <!--            <div id="new" class="animation">-->
+        <!--                <ul class="product-list">-->
+        <!--                    <li><img src="../Img/Butchi.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/Cay.jpg"/></li>-->
+        <!--                    <li><img src="../Img/Hopbut.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/sach.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/sach2.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/Sao.jpg"/></li>-->
+        <!--                </ul>-->
+        <!--            </div>-->
+
+        <!--            <div id="Popu" class="animation">-->
+        <!--                <ul class="product-list">-->
+        <!--                    <li><img src="../Img/Hopbut.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/sach2.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/Butchi.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/Cay.jpg"/></li>-->
+        <!--                    <li><img src="../Img/Sao.jpg"/></li>-->
+        <!--                    <li><img src="../Img/sach.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/Butchi.jpeg"/></li>-->
+        <!--                </ul>-->
+        <!--            </div>-->
+
+        <!--            <div id="best" class="animation">-->
+        <!--                <ul class="product-list">-->
+        <!--                    <li><img src="../Img/Sao.jpg"/></li>-->
+        <!--                    <li><img src="../Img/sach.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/Cay.jpg"/></li>-->
+        <!--                    <li><img src="../Img/Hopbut.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/sach2.jpeg"/></li>-->
+        <!--                    <li><img src="../Img/Butchi.jpeg"/></li>-->
+
+        <!--                </ul>-->
+        <!--            </div>-->
+    </div>
     </div>
 </section>
-<script>
-    function changeProductList(type,element) {
-        console.log(type);
-        console.log(element);
-        element.background = '#ee4d2d';
-        let tabs = document.getElementsByClassName('tab-item');
-        for (let i = 0; i < tabs.length; i++) {
-            tabs[i].style.background = '#b14c38'
-        }
-        document.getElementById('type').style.display = 'block';
+<!--<script>-->
+<!--    function changeProductList(type,element) {-->
+<!--        console.log(type);-->
+<!--        console.log(element);-->
+<!--        element.background = '#ee4d2d';-->
+<!--        var tabs = document.getElementsByClassName('tab-item');-->
+<!--        for (let i = 0; i < tabs.length; i++) {-->
+<!--            tabs[i].style.background = '#b14c38'-->
+<!--        }-->
+<!--        document.getElementById('type').style.display = 'block';-->
 
-        switch (type) {
-            case 'popu':
-                document.getElementById('new').style.display = 'none';
-                document.getElementById('best').style.display = 'none';
-                break;
-            case 'new':
-                document.getElementById('popu').style.display = 'none';
-                document.getElementById('best').style.display = 'none';
-                break;
-            case 'best':
-                document.getElementById('new').style.display = 'none';
-                document.getElementById('popu').style.display = 'none';
-                break;
-        }
-    }
-</script>
+<!--        switch (type) {-->
+<!--            case 'popu':-->
+<!--                document.getElementById('new').style.display = 'none';-->
+<!--                document.getElementById('best').style.display = 'none';-->
+<!--                break;-->
+<!--            case 'new':-->
+<!--                document.getElementById('popu').style.display = 'none';-->
+<!--                document.getElementById('best').style.display = 'none';-->
+<!--                break;-->
+<!--            case 'best':-->
+<!--                document.getElementById('new').style.display = 'none';-->
+<!--                document.getElementById('popu').style.display = 'none';-->
+<!--                break;-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+<script> // tabbed content
+$(".tab_content").hide();
+$(".tab_content:first").show();
+
+/* if in tab mode */
+$("ul.tabs li").click(function () {
+
+    $(".tab_content").hide();
+    var activeTab = $(this).attr("rel");
+    $("#" + activeTab).fadeIn();
+
+    $("ul.tabs li").removeClass("active");
+    $(this).addClass("active");
+
+    $(".tab_drawer_heading").removeClass("d_active");
+    $(".tab_drawer_heading[rel^='" + activeTab + "']").addClass("d_active");
+
+});
+/* if in drawer mode */
+$(".tab_drawer_heading").click(function () {
+
+    $(".tab_content").hide();
+    var d_activeTab = $(this).attr("rel");
+    $("#" + d_activeTab).fadeIn();
+
+    $(".tab_drawer_heading").removeClass("d_active");
+    $(this).addClass("d_active");
+
+    $("ul.tabs li").removeClass("active");
+    $("ul.tabs li[rel^='" + d_activeTab + "']").addClass("active");
+});
+
+
+/* Extra class "tab_last" 
+   to add border to right side
+   of last tab */
+$('ul.tabs li').last().addClass("tab_last");</script>
 </body>
 </html>
